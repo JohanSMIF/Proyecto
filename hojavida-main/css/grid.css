@@ -28,17 +28,32 @@
     background: #b9b9b9;
     grid-area: cont;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr; 
-    gap: 0; 
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px; /* Espacio entre las cajas */
     padding: 20px;
 }
 
 .card1,
 .card2,
 .card3 {
-    background-color: #f0f0f0;
-    border: 1px solid #000;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 30px; /* Ajuste el radio de la esquina según su preferencia */
     padding: 20px;
     text-align: center;
     width: 100%;
+    overflow: hidden;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.imagen {
+    max-width: 40%; /* Reducir el tamaño de la imagen al 40% del contenedor */
+    max-height: 40%; /* Reducir el tamaño de la imagen al 40% del contenedor */
+    margin: auto; /* Centra la imagen horizontalmente */
 }
