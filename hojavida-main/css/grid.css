@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pageGrid {
+    display: grid;
+    grid-template-areas:
+        "cab cab"
+        "cont cont";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    width: 100vw;
+    height: 100vh;
+}
+
+.cabecera {
+    background-color: #242424;
+    color: #fff;
+    grid-area: cab;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.contenido {
+    background: #b9b9b9;
+    grid-area: cont;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px; /* Espacio entre las cajas */
+    padding: 20px;
+}
+
+.card1,
+.card2,
+.card3 {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 30px; /* Ajuste el radio de la esquina según su preferencia */
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.imagen {
+    max-width: 40%; /* Reducir el tamaño de la imagen al 40% del contenedor */
+    max-height: 40%; /* Reducir el tamaño de la imagen al 40% del contenedor */
+    margin: auto; /* Centra la imagen horizontalmente */
+}
