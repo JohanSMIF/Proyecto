@@ -55,21 +55,69 @@ body {
 }
 
 .menu-item.plato-2 {
-  background-image: url("../resources/pisa.png");
+  background-image: url("../resources/pizza.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  color: #ffffff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .menu-item.plato-3 {
-  background-image: url("../resources/hotdog2.png");
+  background-image: url("../resources/Perro.avif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  color: #ffffff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .titulo{
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 50px;
+}
+
+.descripcion {
+  overflow: hidden; 
+}
+
+.nombre {
+  float: left;
+  font-weight: bold; 
+}
+
+.precio {
+  float: right;
+  font-weight: bold; 
+}
+
+.ingredientes {
+  clear: both;
+  font-style: italic;
+  margin-top: 5px;
+}
+
+
+
+footer {
+  background-color: #000; 
+  color: #fff;
+  padding: 20px; 
+  text-align: center; 
+}
+
+.contacto {
+  font-size: 18px;
+  margin: 0; 
+}
+
+.telefono {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.logo-whatsapp {
+  width: 20px; 
+  vertical-align: middle;
 }
